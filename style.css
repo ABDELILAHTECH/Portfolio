@@ -9,9 +9,7 @@ body{
     position: relative;
 background: #2A7B9B;
 background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);}
-h1{
-    font-size: 45px;
-}
+
 h2{
     font-size: 38px;
     display: inline;
@@ -53,7 +51,7 @@ a{
     font-size: 20PX;
 }
 main{
-    
+    padding: 30px;
 }
 section{
     min-height: calc(100vh - 60PX);
@@ -61,6 +59,7 @@ section{
 }
 main h1{
     line-height: 65px; 
+    font-size: ;
 }
 h1 mark{
     background-color: #2A7B9B;
@@ -92,8 +91,15 @@ h1 mark{
     text-align: center;
 }
 #section1{
- width: 500px;
+ width: 550px;
  margin-left: 33%;
+}
+#section1 p , mark{
+    font-size: 60px;
+    font-weight: 700;
+}
+mark{
+    background-color: #2A7B9B;
 }
 #skills div,#projects{
     padding: 30px 0;
@@ -116,7 +122,7 @@ h1 mark{
     color: #2A7B9B;
 }
 #projects{
-    gap: 20PX
+    gap: 30PX
     ;
 }
 #skills i{
@@ -185,6 +191,8 @@ button{
 }
 
 #section4 p{
+    font-size: 20px;
+    font-weight: 600;
     width: 80%;
     text-align: center;
     line-height: 30px;
@@ -197,7 +205,7 @@ button{
     flex-direction: column;
     gap: 25PX;
     position: fixed;
-    bottom: 5px;
+    bottom: 35px;
     right: calc(50vw - 95px);
 }
 
@@ -212,8 +220,8 @@ button{
     opacity: 0.5;
 }
 
-@media screen and (max-width:700PX) {
+@media screen and (max-width:900PX) {
     #section1{
-        margin-left: 20%;
+        margin-left: 30%;
     }
 }
